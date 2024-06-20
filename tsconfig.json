@@ -1,0 +1,7 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2020.BigInt", "ES2020.Promise", "ES2020.String", "ES2020.Symbol.WellKnown"],
+    "forceConsistentCasingInFileNames": true
+  }
+}
